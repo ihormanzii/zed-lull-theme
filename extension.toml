@@ -1,0 +1,7 @@
+id = "lull-theme"
+name = "Lull"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ihor Manzii <igorcollpsp@gmail.com>"]
+description = "Calm, neutral dark and light themes with soft pastel syntax colors, inspired by the macOS look."
+repository = "https://github.com/ihormanzii/zed-lull-theme"
