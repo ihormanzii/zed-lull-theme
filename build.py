@@ -31,7 +31,7 @@ DARK_TERMINAL = {
 }
 
 DARK_SHARED = {
-    "fg": "#dcdcdc",  # labelColor
+    "fg": "#f5f5f5",  # labelColor, brightened for contrast
     "muted": "#98989d",  # secondaryLabelColor
     "subtle": "#5f5f63",  # tertiaryLabelColor
     "accent": "#0a84ff",  # controlAccentColor (blue)
@@ -47,12 +47,12 @@ DARK_SHARED = {
     "pink": "#ff6482",
     "white": "#dcdcdc",
     # Code: mostly grayscale, soft hues for keywords, literals and types.
-    "code_keyword": "#8fb3e0",
-    "code_literal": "#b5c4a1",
-    "code_function": "#c5b4ea",
-    "code_type": "#dcc08f",
-    "code_comment": "#6e6e73",
-    "code_punct": "#8e8e93",
+    "code_keyword": "#8cc4ff",
+    "code_literal": "#b8e986",
+    "code_function": "#d0aaff",
+    "code_type": "#ffcc66",
+    "code_comment": "#9a9aa0",
+    "code_punct": "#c0c0c5",
 }
 
 PALETTES = {
@@ -297,6 +297,12 @@ def main():
     text = json.dumps(family, indent=2) + "\n"
     out.write_text(text)
     print(f"wrote {out}")
+
+    # When installed as a dev extension, Zed reads themes/ directly; a second copy would duplicate it.
+    dev_extension = Path.home() / "Library" / "Application Support" / "Zed" / "extensions" / "installed" / "lull-theme"
+    if dev_extension.exists():
+        print("dev extension installed; click Rebuild on Lull in Zed's Extensions page to reload")
+        return
 
     # Zed only notices edits to real files in its themes folder, not to symlink targets.
     zed_themes = Path.home() / ".config" / "zed" / "themes"
