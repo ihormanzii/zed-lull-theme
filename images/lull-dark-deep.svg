@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" rx="12" fill="#171717"/>
+<rect x="232" y="38" width="968" height="654" fill="#171717"/>
+<circle cx="20" cy="19.0" r="6" fill="#ff5f57"/>
+<circle cx="40" cy="19.0" r="6" fill="#febc2e"/>
+<circle cx="60" cy="19.0" r="6" fill="#28c840"/>
+<text x="90" y="24.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">notes</text>
+<text x="150" y="24.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#98989d">main</text>
+<rect y="37" width="1200" height="1" fill="#2e2e2e"/>
+<rect x="231" y="38" width="1" height="654" fill="#2e2e2e"/>
+<text x="20" y="66" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#98989d">cmd</text>
+<text x="20" y="92" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#98989d">internal</text>
+<rect x="8" y="101" width="216" height="24" rx="5" fill="#0a84ff" fill-opacity="0.18"/>
+<text x="36" y="118" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">notes.go</text>
+<text x="36" y="144" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">notes_test.go</text>
+<text x="36" y="170" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">notebook.go</text>
+<text x="20" y="196" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">go.mod</text>
+<text x="20" y="222" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">README.md</text>
+<rect x="232" y="38" width="968" height="36" fill="#171717"/>
+<rect x="232" y="38" width="150" height="36" fill="#171717"/>
+<text x="250" y="61" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f5f5f5">notes.go</text>
+<text x="394" y="61" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#98989d">notebook.go</text>
+<rect x="382" y="73" width="818" height="1" fill="#2e2e2e"/>
+<text x="280" y="111" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">1</text>
+<text x="304" y="111" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#8cc4ff">package</tspan> <tspan fill="#f5f5f5">notes</tspan></text>
+<text x="280" y="134" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">2</text>
+<text x="304" y="134" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"></text>
+<text x="280" y="157" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">3</text>
+<text x="304" y="157" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#8cc4ff">import</tspan> <tspan fill="#b8e986">"fmt"</tspan></text>
+<text x="280" y="180" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">4</text>
+<text x="304" y="180" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"></text>
+<text x="280" y="203" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">5</text>
+<text x="304" y="203" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#9a9aa0">// Note is a short piece of text with a title.</tspan></text>
+<text x="280" y="226" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">6</text>
+<text x="304" y="226" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#8cc4ff">type</tspan> <tspan fill="#ffcc66">Note</tspan> <tspan fill="#8cc4ff">struct</tspan> <tspan fill="#c0c0c5">{</tspan></text>
+<text x="280" y="249" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">7</text>
+<text x="304" y="249" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#f5f5f5">Title</tspan>  <tspan fill="#ffcc66">string</tspan></text>
+<text x="280" y="272" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">8</text>
+<text x="304" y="272" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#f5f5f5">Body</tspan>   <tspan fill="#ffcc66">string</tspan></text>
+<text x="280" y="295" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">9</text>
+<text x="304" y="295" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#f5f5f5">Pinned</tspan> <tspan fill="#ffcc66">bool</tspan></text>
+<text x="280" y="318" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">10</text>
+<text x="304" y="318" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#c0c0c5">}</tspan></text>
+<text x="280" y="341" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">11</text>
+<text x="304" y="341" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"></text>
+<text x="280" y="364" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">12</text>
+<text x="304" y="364" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#9a9aa0">// Pinned opens a notebook and returns its pinned notes.</tspan></text>
+<text x="280" y="387" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">13</text>
+<text x="304" y="387" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#8cc4ff">func</tspan> <tspan fill="#d0aaff">Pinned</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#f5f5f5">path</tspan> <tspan fill="#ffcc66">string</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#f5f5f5">limit</tspan> <tspan fill="#ffcc66">int</tspan><tspan fill="#c0c0c5">)</tspan> <tspan fill="#c0c0c5">(</tspan><tspan fill="#c0c0c5">[</tspan><tspan fill="#c0c0c5">]</tspan><tspan fill="#c0c0c5">*</tspan><tspan fill="#ffcc66">Note</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#ffcc66">error</tspan><tspan fill="#c0c0c5">)</tspan> <tspan fill="#c0c0c5">{</tspan></text>
+<rect x="232" y="394" width="968" height="23" fill="#f5f5f5" fill-opacity="0.039"/>
+<text x="280" y="410" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#f5f5f5">14</text>
+<text x="304" y="410" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#f5f5f5">notes</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#f5f5f5">err</tspan><tspan fill="#409cff">: []*Note, error</tspan> <tspan fill="#c0c0c5">:</tspan><tspan fill="#c0c0c5">=</tspan> <tspan fill="#d0aaff">openNotebook</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#409cff">name: </tspan><tspan fill="#f5f5f5">path</tspan><tspan fill="#c0c0c5">)</tspan></text>
+<rect x="337.6" y="395" width="2" height="19" fill="#0a84ff"/>
+<text x="280" y="433" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">15</text>
+<text x="304" y="433" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#8cc4ff">if</tspan> <tspan fill="#f5f5f5">err</tspan> <tspan fill="#c0c0c5">!</tspan><tspan fill="#c0c0c5">=</tspan> <tspan fill="#b8e986">nil</tspan> <tspan fill="#c0c0c5">{</tspan></text>
+<text x="280" y="456" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">16</text>
+<text x="304" y="456" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">        <tspan fill="#8cc4ff">return</tspan> <tspan fill="#b8e986">nil</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#f5f5f5">fmt</tspan><tspan fill="#c0c0c5">.</tspan><tspan fill="#d0aaff">Errorf</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#b8e986">"open %s: %w"</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#f5f5f5">path</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#f5f5f5">err</tspan><tspan fill="#c0c0c5">)</tspan></text>
+<text x="280" y="479" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">17</text>
+<text x="304" y="479" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#c0c0c5">}</tspan></text>
+<text x="280" y="502" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">18</text>
+<text x="304" y="502" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#f5f5f5">pinned</tspan> <tspan fill="#c0c0c5">:</tspan><tspan fill="#c0c0c5">=</tspan> <tspan fill="#d0aaff">filter</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#f5f5f5">notes</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#8cc4ff">func</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#f5f5f5">n</tspan> <tspan fill="#c0c0c5">*</tspan><tspan fill="#ffcc66">Note</tspan><tspan fill="#c0c0c5">)</tspan> <tspan fill="#ffcc66">bool</tspan> <tspan fill="#c0c0c5">{</tspan></text>
+<text x="280" y="525" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">19</text>
+<text x="304" y="525" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">        <tspan fill="#8cc4ff">return</tspan> <tspan fill="#f5f5f5">n</tspan><tspan fill="#c0c0c5">.</tspan><tspan fill="#f5f5f5">Pinned</tspan> <tspan fill="#c0c0c5">&amp;</tspan><tspan fill="#c0c0c5">&amp;</tspan> <tspan fill="#f5f5f5">n</tspan><tspan fill="#c0c0c5">.</tspan><tspan fill="#f5f5f5">Title</tspan> <tspan fill="#c0c0c5">!</tspan><tspan fill="#c0c0c5">=</tspan> <tspan fill="#b8e986">""</tspan></text>
+<text x="280" y="548" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">20</text>
+<text x="304" y="548" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#c0c0c5">}</tspan><tspan fill="#c0c0c5">)</tspan></text>
+<text x="280" y="571" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">21</text>
+<text x="304" y="571" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve">    <tspan fill="#8cc4ff">return</tspan> <tspan fill="#f5f5f5">pinned</tspan><tspan fill="#c0c0c5">[</tspan><tspan fill="#c0c0c5">:</tspan><tspan fill="#d0aaff">min</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#f5f5f5">limit</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#d0aaff">len</tspan><tspan fill="#c0c0c5">(</tspan><tspan fill="#f5f5f5">pinned</tspan><tspan fill="#c0c0c5">)</tspan><tspan fill="#c0c0c5">)</tspan><tspan fill="#c0c0c5">]</tspan><tspan fill="#c0c0c5">,</tspan> <tspan fill="#b8e986">nil</tspan></text>
+<text x="280" y="594" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#98989d" fill-opacity="0.6">22</text>
+<text x="304" y="594" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-variant-ligatures="none" style="font-variant-ligatures: none" xml:space="preserve"><tspan fill="#c0c0c5">}</tspan></text>
+<rect y="692" width="1200" height="28" fill="#171717"/>
+<rect y="692" width="1200" height="1" fill="#2e2e2e"/>
+<text x="16" y="711" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#98989d">Lull Dark Deep</text>
+<text x="1184" y="711" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#98989d">14:5   Go</text>
+</svg>
